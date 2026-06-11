@@ -14,189 +14,224 @@
 <body>
   <header class="site-header">
     <a class="logo" href="#top">Kyo Kuroki</a>
-
     <nav class="nav">
       <a href="#about">About</a>
       <a href="#publications">Publications</a>
-      <a href="mailto:kuroki.kyo@artic.iir.isct.ac.jp">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-text">
+    <section class="profile-hero">
+      <div class="profile-photo-wrap">
+        <img class="profile-photo" src="./images/profile.jpg" alt="Kyo Kuroki" />
+      </div>
+
+      <div class="profile-main">
+        <p class="eyebrow">Ph.D. Student</p>
         <h1>Kyo Kuroki</h1>
-        <p class="lead">
-          I am a Ph.D. student at the Institute of Science Tokyo, working on
-          efficient deep learning systems, neural network compression,
-          quantization, external memory, and combinatorial optimization.
+        <p class="affiliation">
+          Institute of Science Tokyo<br />
+          AI Computing Research Unit
         </p>
 
-        <div class="hero-actions">
-          <a class="button primary" href="#publications">View Publications</a>
-          <a class="button secondary" href="mailto:kuroki.kyo@artic.iir.isct.ac.jp">Contact Me</a>
-        </div>
+        <p class="intro">
+          My research focuses on efficient deep learning systems, neural network
+          compression, quantization, external memory, and combinatorial optimization.
+          I am interested in making advanced AI models more efficient, scalable,
+          and deployable under limited computational resources.
+        </p>
 
-        <div class="social-links" aria-label="External links">
+        <div class="social-links">
           <a href="https://scholar.google.co.jp/citations?user=z7xJXukAAAAJ&hl=ja&authuser=6" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           <a href="https://github.com/kyo-kuroki" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/kyo-kuroki-05299939b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="http://www.artic.iir.titech.ac.jp/wp/" target="_blank" rel="noopener noreferrer">Lab</a>
+          <a href="mailto:kuroki.kyo@artic.iir.isct.ac.jp">Email</a>
         </div>
-      </div>
-
-      <div class="hero-image-wrap">
-        <img class="profile-image" src="./images/profile.jpg" alt="Portrait of Kyo Kuroki" />
       </div>
     </section>
 
     <section id="about" class="section">
       <div class="section-heading">
         <p class="eyebrow">About</p>
-        <h2>About</h2>
+        <h2>Profile</h2>
       </div>
 
-      <div class="about-intro">
-        <p>
-          I am currently pursuing a Ph.D. degree at the Institute of Science Tokyo.
-          My research focuses on designing efficient AI systems that can perform
-          high-quality inference under limited computational and memory resources.
-          My interests span neural network compression, quantization,
-          retrieval-augmented and memory-augmented models, approximate attention,
-          and combinatorial optimization.
-        </p>
-      </div>
+      <div class="about-grid">
+        <article class="about-card large">
+          <h3>Research Interests</h3>
+          <ul class="tag-list">
+            <li>Efficient deep learning systems</li>
+            <li>Neural network compression</li>
+            <li>Quantization</li>
+            <li>External memory for LLMs</li>
+            <li>Retrieval-augmented inference</li>
+            <li>Combinatorial optimization</li>
+          </ul>
+        </article>
 
-      <div class="about-block">
-        <h3 class="about-block-title">Research</h3>
-        <ul class="about-list">
-          <li>
-            <span class="about-term">Efficient Deep Learning Systems</span>
-            <span>Efficient inference, model compression, and deployment-friendly learning systems for large-scale neural networks.</span>
-          </li>
-          <li>
-            <span class="about-term">Neural Network Quantization</span>
-            <span>Optimization-based quantization and matrix compression for reducing memory and computation while preserving performance.</span>
-          </li>
-          <li>
-            <span class="about-term">External Memory & Retrieval</span>
-            <span>Retrieval-augmented and memory-augmented inference that improves adaptation without expanding model parameters.</span>
-          </li>
-          <li>
-            <span class="about-term">Combinatorial Optimization</span>
-            <span>Classical optimization algorithms and annealing-inspired methods for large-scale discrete optimization problems.</span>
-          </li>
-        </ul>
-      </div>
+        <article class="about-card">
+          <h3>Education</h3>
+          <div class="timeline compact">
+            <div class="timeline-item">
+              <span>2025 - Present</span>
+              <p>Ph.D. student, Institute of Science Tokyo</p>
+            </div>
+            <div class="timeline-item">
+              <span>2023 - 2025</span>
+              <p>M.E., Institute of Science Tokyo</p>
+            </div>
+            <div class="timeline-item">
+              <span>2019 - 2023</span>
+              <p>B.E., Tohoku University</p>
+            </div>
+          </div>
+        </article>
 
-      <div class="about-block">
-        <h3 class="about-block-title">Education</h3>
-        <ul class="about-list">
-          <li>
-            <span class="about-date">2025 - Present</span>
-            <span><strong>Institute of Science Tokyo</strong> — Ph.D. student, Information and Communications Engineering</span>
-          </li>
-          <li>
-            <span class="about-date">2023 - 2025</span>
-            <span><strong>Institute of Science Tokyo</strong> — M.E., Information and Communications Engineering</span>
-          </li>
-          <li>
-            <span class="about-date">2019 - 2023</span>
-            <span><strong>Tohoku University</strong> — B.E., Electrical, Information and Physics Engineering</span>
-          </li>
-        </ul>
-      </div>
+        <article class="about-card">
+          <h3>Awards & Honors</h3>
+          <ul class="simple-list">
+            <li>Outstanding Master's Student Award, Institute of Science Tokyo, 2025</li>
+            <li>NeurIPS 2025, Poster</li>
+            <li>GECCO 2024, Conference Paper</li>
+            <li>IEEE Transactions on Evolutionary Computation, Accepted</li>
+          </ul>
+        </article>
 
-      <div class="about-block">
-        <h3 class="about-block-title">Work Experience</h3>
-        <ul class="about-list">
-          <!-- TODO: fill in actual work experience entries -->
-          <li>
-            <span class="about-date">Year - Year</span>
-            <span><strong>Organization</strong> — Role / short description</span>
-          </li>
-        </ul>
+        <article class="about-card">
+          <h3>Programs</h3>
+          <ul class="simple-list">
+            <li>JST BOOST / Next Generation AI Program</li>
+          </ul>
+          <!-- If you want the exact BOOST project title, replace the text above with the official title from LinkedIn. -->
+        </article>
+
+        <article class="about-card">
+          <h3>Experience</h3>
+          <ul class="simple-list">
+            <li>Research on efficient inference, quantization, and combinatorial optimization at AI Computing Research Unit.</li>
+          </ul>
+          <!-- LinkedIn could not be fetched from this environment.
+               Add specific internship entries here if needed:
+               <li>Research Intern, Organization, YYYY.MM - YYYY.MM</li>
+          -->
+        </article>
       </div>
     </section>
 
-    <section id="publications" class="section">
+    <section id="publications" class="section publications-section">
       <div class="section-heading publication-heading">
         <div>
-          <p class="eyebrow">Selected Publications</p>
-          <h2>Publications</h2>
+          <p class="eyebrow">Publications</p>
+          <h2>Selected Publications</h2>
         </div>
         <a class="text-link" href="https://scholar.google.co.jp/citations?user=z7xJXukAAAAJ&hl=ja&authuser=6" target="_blank" rel="noopener noreferrer">
-          View all on Google Scholar
+          Google Scholar
         </a>
       </div>
 
       <div class="publication-list">
         <article class="publication-card">
-          <div class="publication-media">
-            <img src="./images/publications/bqqq.jpg" alt="Binary Quadratic Quantization overview" />
+          <div class="pub-image">
+            <img src="./images/publications/bqq.jpg" alt="Binary Quadratic Quantization" onerror="this.closest('.pub-image').classList.add('is-empty'); this.remove();" />
           </div>
-          <div class="publication-content">
-            <p class="publication-meta">NeurIPS 2025 / Quantization</p>
+          <div class="pub-content">
+            <p class="pub-meta">NeurIPS 2025 / Quantization</p>
             <h3>Binary Quadratic Quantization: Beyond First-Order Quantization for Real-Valued Matrix Compression</h3>
-            <p>
-              A quantization method for real-valued matrix compression based on
-              binary quadratic optimization beyond first-order approximation.
+            <p class="authors">
+              Kyo Kuroki, Yasuyuki Okoshi, Thiem Van Chu, Kazushi Kawamura, Masato Motomura
             </p>
-            <div class="publication-links">
-              <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119877" target="_blank" rel="noopener noreferrer">Paper</a>
+            <p>
+              A matrix quantization method that leverages binary quadratic expressions
+              for efficient real-valued matrix compression and neural network quantization.
+            </p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2510.18650" target="_blank" rel="noopener noreferrer">Paper</a>
               <a href="https://github.com/kyo-kuroki/BQQ" target="_blank" rel="noopener noreferrer">Code</a>
             </div>
           </div>
         </article>
 
         <article class="publication-card">
-          <div class="publication-media">
-            <img src="./images/publications/amfd.jpg" alt="Annealed Mean Field Descent overview" />
+          <div class="pub-image">
+            <img src="./images/publications/amfd.jpg" alt="Annealed Mean Field Descent" onerror="this.closest('.pub-image').classList.add('is-empty'); this.remove();" />
           </div>
-          <div class="publication-content">
-            <p class="publication-meta">IEEE TEVC / Combinatorial Optimization</p>
+          <div class="pub-content">
+            <p class="pub-meta">IEEE TEVC / Optimization</p>
             <h3>Annealed Mean Field Descent Is Highly Effective for Quadratic Unconstrained Binary Optimization</h3>
-            <p>
-              A mean-field-descent-based optimization method for solving QUBO
-              problems efficiently and robustly.
+            <p class="authors">
+              Kyo Kuroki, Thiem Van Chu, Masato Motomura, Kazushi Kawamura
             </p>
-            <div class="publication-links">
-              <a href="https://ieeexplore.ieee.org/document/11510509" target="_blank" rel="noopener noreferrer">Paper</a>
+            <p>
+              A mean-field-descent-based method for solving QUBO problems by directly
+              minimizing a divergence-based objective.
+            </p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2504.08315" target="_blank" rel="noopener noreferrer">Paper</a>
               <a href="https://github.com/kyo-kuroki/AMFD" target="_blank" rel="noopener noreferrer">Code</a>
             </div>
           </div>
         </article>
 
         <article class="publication-card">
-          <div class="publication-media">
-            <img src="./images/publications/gecco2024.jpg" alt="Parallel annealing algorithm overview" />
+          <div class="pub-image">
+            <img src="./images/publications/gecco2024.jpg" alt="Parallel Annealing Algorithm" onerror="this.closest('.pub-image').classList.add('is-empty'); this.remove();" />
           </div>
-          <div class="publication-content">
-            <p class="publication-meta">GECCO 2024 / Optimization</p>
+          <div class="pub-content">
+            <p class="pub-meta">GECCO 2024 / Combinatorial Optimization</p>
             <h3>Classical Thermodynamics-based Parallel Annealing Algorithm for High-speed and Robust Combinatorial Optimization</h3>
-            <p>
-              A thermodynamics-inspired parallel annealing algorithm for
-              high-speed and robust combinatorial optimization.
+            <p class="authors">
+              Kyo Kuroki, Satoru Jimbo, Thiem Van Chu, Masato Motomura, Kazushi Kawamura
             </p>
-            <div class="publication-links">
+            <p>
+              A thermodynamics-inspired parallel annealing algorithm for high-speed
+              and robust combinatorial optimization.
+            </p>
+            <div class="pub-links">
               <a href="https://dl.acm.org/doi/10.1145/3638529.3654042" target="_blank" rel="noopener noreferrer">Paper</a>
             </div>
           </div>
         </article>
 
-        <article class="publication-card no-image">
-          <div class="publication-content">
-            <p class="publication-meta">Ongoing Research / Efficient LLMs</p>
-            <h3>Retrieval-Augmented and Memory-Augmented Adaptation for Large Language Models</h3>
-            <p>
-              Ongoing work on efficient test-time adaptation, external memory,
-              and retrieval-based correction for frozen language models.
+        <article class="publication-card">
+          <div class="pub-image">
+            <img src="./images/publications/ssa.jpg" alt="Stochastic Simulated Annealing" onerror="this.closest('.pub-image').classList.add('is-empty'); this.remove();" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-meta">IEEE Open Journal of Signal Processing / Annealing</p>
+            <h3>Local Energy Distribution Based Hyperparameter Determination for Stochastic Simulated Annealing</h3>
+            <p class="authors">
+              Naoya Onizawa, Kyo Kuroki, Duckgyu Shin, Takahiro Hanyu
             </p>
+            <p>
+              A hyperparameter determination method for stochastic simulated annealing
+              based on local energy distributions.
+            </p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2304.11839" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="https://github.com/nonizawa/SSA-for-MAX-CUT" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
           </div>
         </article>
       </div>
     </section>
 
+    <section id="contact" class="section contact-section">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch</h2>
+          <p>
+            Please feel free to contact me regarding research collaboration,
+            internship opportunities, or related academic discussions.
+          </p>
+        </div>
+        <a class="contact-email" href="mailto:kuroki.kyo@artic.iir.isct.ac.jp">
+          kuroki.kyo@artic.iir.isct.ac.jp
+        </a>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
@@ -205,5 +240,3 @@
   </footer>
 </body>
 </html>
-
-
