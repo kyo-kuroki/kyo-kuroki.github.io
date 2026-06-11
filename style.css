@@ -83,7 +83,7 @@ img {
   margin: 0 auto;
   padding: 86px 28px 72px;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 240px 1fr;
   gap: 56px;
   align-items: center;
 }
