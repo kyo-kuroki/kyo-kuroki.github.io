@@ -636,8 +636,8 @@ img {
   margin: 0 auto;
   padding: 86px 28px 72px;
   display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 56px;
+  grid-template-columns: 200px 1fr;
+  gap: 48px;
   align-items: center;
 }
 
@@ -658,9 +658,9 @@ img {
 
 .profile-photo {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 28px;
+  border-radius: 24px;
   box-shadow: var(--shadow);
 }
 
@@ -1002,7 +1002,7 @@ img {
   }
 
   .profile-photo-wrap {
-    max-width: 300px;
+    max-width: 220px;
   }
 
   .publication-card {
