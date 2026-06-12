@@ -310,13 +310,28 @@ img {
 
 .pub-image {
   min-height: 250px;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pub-image img {
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  padding: 28px;
+}
+
+.pub-image.is-empty {
   background:
     radial-gradient(circle at 28% 24%, rgba(57, 71, 214, 0.22), transparent 36%),
     linear-gradient(135deg, #f0f0f7, #deded6);
-  position: relative;
 }
 
-.pub-image::after {
+.pub-image.is-empty::after {
   content: "Publication";
   position: absolute;
   left: 24px;
@@ -326,17 +341,6 @@ img {
   font-weight: 900;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-}
-
-.pub-image img {
-  width: 100%;
-  height: 100%;
-  min-height: 250px;
-  object-fit: cover;
-}
-
-.pub-image img + ::after {
-  display: none;
 }
 
 .pub-content {
